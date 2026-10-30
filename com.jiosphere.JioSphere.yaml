@@ -104,20 +104,20 @@ modules:
       - install -Dm 644 -t /app/share/metainfo com.jiosphere.JioSphere.metainfo.xml
     sources:
       - type: archive
-        url: https://jiosphere.com/apt/11005/jiosphere-browser-linux-x86_64.zip
-        sha256: 0763e2d243fd10101079e747b79af07c9f64688e50d899ff8e95be8a535050ff
+        url: https://repo.jiosphere.com/11005/jiosphere-browser-linux-x86_64.zip
+        sha256: 2fedf4d9ab0050f1f4ab65da9ec6b97be108a276fb97126f858d9045da174066
         dest-filename: jiosphere-browser-linux-x86_64.zip
         dest: jiosphere-browser
         only-arches: [x86_64]
       - type: archive
-        url: https://jiosphere.com/apt/11005/jiosphere-browser-linux-aarch64.zip
-        sha256: 2439a1ba15119d87927a2d7b6046782c8a8d15775649590a47adf2911da19fa7
+        url: https://repo.jiosphere.com/11005/jiosphere-browser-linux-aarch64.zip
+        sha256: 48bf588fd84a680996d0acc385f45ff644397833e82b381590888656fe1ece6c
         dest-filename: jiosphere-browser-linux-aarch64.zip
         dest: jiosphere-browser
         only-arches: [aarch64]
       - type: file
-        url: https://jiosphere.com/apt/11005/com.jiosphere.JioSphere.metainfo.xml
-        sha256: c4095e50ae0a0025e5e5199de2f4d5837215fe1b18dee03f252ff020c0b74cee
+        url: https://repo.jiosphere.com/11005/com.jiosphere.JioSphere.metainfo.xml
+        sha256: 1f6769b1ff7fcdf06721026c77d12fc06ed8d160e766696f6460552b4dec3a6f
         dest-filename: com.jiosphere.JioSphere.metainfo.xml
       - type: file
         url: https://stgrepo.jiosphere.com/6007/jiosphere.svg
