@@ -11,5 +11,5 @@ for proot in "etc/jiosphere/policies" "etc/static/jiosphere/policies"; do
 done
 
 # Launch JioSphere
-exec zypak-wrapper /app/jiosphere/jiosphere-browser/jiosphere-browser "$@" --no-default-browser-check
+exec zypak-wrapper /app/jiosphere/jiosphere-browser/jiosphere "$@" --no-default-browser-check
 #exec zypak-wrapper app/bin/cobalt "$@" --no-default-browser-check
